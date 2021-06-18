@@ -5,6 +5,7 @@ const setBlack = document.querySelector("#black");
 
 var isBlack = false;
 
+
 function makeGrid(rows, cols) {
     let gridArea = rows * cols;
     for (let i = 1; i <= gridArea; i++) {
@@ -63,6 +64,8 @@ function setSize() {
 
 setBlack.addEventListener("click", ()=>{
     isBlack=!isBlack;
+    setBlack.classList.toggle("bigB");
 })
+
 clearBtn.addEventListener("click", clearColor);
 setSizeBtn.addEventListener("click", setSize);
