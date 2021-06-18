@@ -63,6 +63,12 @@ button:hover{
     grid-auto-columns: 1fr; */
 }
 
+@media screen and (max-width:480px) {
+    .container{
+        width:96vw;
+    }
+}
+
 .bigB{
     border:2px solid white;
 }
