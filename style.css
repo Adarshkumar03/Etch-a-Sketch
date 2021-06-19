@@ -76,3 +76,8 @@ button:hover{
 .bigB:hover{
     background-color: gray;
 }
+
+.change{
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}

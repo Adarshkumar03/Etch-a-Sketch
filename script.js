@@ -2,6 +2,7 @@ const container = document.querySelector(".container");
 const clearBtn = document.querySelector("#clear");
 const setSizeBtn = document.querySelector("#set-size");
 const setBlack = document.querySelector("#black");
+const body = document.body;
 
 var isBlack = false;
 
@@ -65,6 +66,7 @@ function setSize() {
 setBlack.addEventListener("click", ()=>{
     isBlack=!isBlack;
     setBlack.classList.toggle("bigB");
+    document.body.classList.toggle("change");
 })
 
 clearBtn.addEventListener("click", clearColor);
