@@ -70,5 +70,9 @@ button:hover{
 }
 
 .bigB{
-    border:2px solid white;
+    border:3px solid white;
+    background: #171717; 
+}
+.bigB:hover{
+    background-color: gray;
 }
